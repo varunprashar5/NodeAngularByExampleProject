@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="inner">
+		<div class="logo left">
+		  <h1>LOGO HERE</h1>
+		</div>
+		<div class="buttons right">
+		  <button class="signup">Contact</button>
+		  <button class="signup">Partner with us</button>
+		  <button data-ng-if="!loginBtn" class="signup" data-ng-click="userLogin('login')">login</button>
+		  <button data-ng-if="loginBtn" class="signup" data-ng-click="logout()">logout</button>
+		</div>
+   </div>
+</header>

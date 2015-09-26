@@ -1,0 +1,93 @@
+<!-- Banner Css Starts here -->
+<div class="banner"> <img src="assets/images/banner.png" alt="">
+  <div class="banner-content">
+    <h2>Search For Find Maid, Cook, Care Taker...</h2>
+    <div class="search-bar-box">
+      <div class="search">
+        <div class="search-button"> <img src="assets/images/location-icon.png" alt=""></div>
+        <input type="text" placeholder="PUNA">
+      </div>
+      <div class="search">
+        <div class="search-button"> <img src="assets/images/search.png" alt=""></div>
+        <input type="text" placeholder="pimple sudagar">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Banner Css Ends here --> 
+
+<!-- Nav Starts here --> 
+<a href="#" class="toggle"> <span class="fa-align-justify"></span></a>
+<nav class="nav">
+  <ul class="inner">
+    <li class="active"> <span class="fa-home"></span><br>
+      <a href="#" title="Home" class="active">Home</a></li>
+    <li><span class="fa-cutlery"></span><br>
+      <a href="#" title="Cook">Cook</a></li>
+    <li><span class=" fa-mortar-board"></span><br>
+      <a href="#" title="Cooking Class">Cooking Class</a></li>
+    <li><span class=" fa-female"></span><br>
+      <a href="#" title="Maid">Maid</a></li>
+    <li><span class="fa-cutlery"></span><br>
+      <a href="#" title="Tiffin Services">Tiffin Services</a></li>
+    <li><span class=" fa-info"></span><br>
+      <a href="#" title="Blog">Blog</a></li>
+    <li><span class="fa-mobile-phone"></span><br>
+      <a href="#" title="Contact Us">Contact Us</a></li>
+  </ul>
+</nav>
+<!-- Nav Ends here --> 
+
+<!-- howitworls Stsrts here -->
+<div class="how-it-works clearfix">
+  <div class="inner">
+    <h1><span>How</span> IT WORKS</h1>
+    <div class="circles">
+      <div class="three-circles">
+        <div class="icon-circle"><span class="fa-search"></div>
+        <h3>search</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra,</p>
+        <p><a href="#">read more</a></p>
+      </div>
+      <div class="three-circles">
+        <div class="icon-circle"><span class="fa-eye"></div>
+        <h3>FIND</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra,</p>
+        <p><a href="#">read more</a></p>
+      </div>
+      <div class="three-circles">
+        <div class="icon-circle"><span class="fa-search"></div>
+        <h3>WOOTBEE!!!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra,</p>
+        <p><a href="#">read more</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- howitworls Ends here --> 
+  
+  <!-- Testimonail starts here -->
+  <div class="testimonial">
+    <div class="inner">
+      <h1><span>What our</span> client says</h1>
+      <a href="#"><img src="assets/images/client.png" alt=""></a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti</p>
+      <p><a href="#">VICKY-T</a></p>
+    </div>
+  </div>
+  <!-- Testimonial ends here --> 
+  <!-- newsletter starts here -->
+  <div class="inner"> 
+    <!-- newsletter starts here -->
+    <div class="newsletter">
+      <h3>Newsletter sign up:</h3>
+      <input type="text" placeholder="Enter your Name">
+      <input type="text" placeholder="Enter your Email">
+      <input type="submit" value="Subscribe">
+    </div>
+    <div class="logos">
+      <h1><span>Our</span>partners</h1>
+      <div class="logo-panel"> <a href="#"><img src="assets/images/logo1.png" alt=""></a> <a href="#"><img src="assets/images/logo2.png" alt=""></a> <a href="#"><img src="assets/images/logo3.png" alt=""></a> <a href="#"><img src="assets/images/logo4.png" alt=""></a> <a href="#"><img src="assets/images/logo5.png" alt=""></a> </div>
+    </div>
+  </div>
+  <!-- newsletter ends here --> 
+  

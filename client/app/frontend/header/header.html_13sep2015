@@ -1,0 +1,39 @@
+<div class="container-fluid main">
+	 <div>
+		<carousel interval="myInterval" no-wrap="noWrapSlides">
+		  <slide ng-repeat="slide in slides" active="slide.active">
+			<img ng-src="{{slide.image}}" style="margin:auto;">
+			<div class="carousel-caption">
+			 <!-- <h4>Slide {{$index}}</h4>-->
+			  <!--<p>{{slide.text}}</p>-->
+			</div>
+		  </slide>
+		</carousel>	
+	  </div>
+	<header class="header">
+	  <div class="container">
+		<div class="logo pull-left">
+		 <a href=""><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="buttons pull-right">
+		  <button class="signup" show-selected>Contact</button>
+		  <button class="signup" show-selected>Partner with us</button>
+		  <button class="signup" data-ng-click="findMaids()" show-selected>Maids</button>
+		  <button show-selected class="signup" data-ng-if="!loginBtn" class="signup" data-ng-click="userLogin('login')">login</button>
+		  <button show-selected data-ng-if="loginBtn" class="signup" data-ng-click="logout()">logout</button>
+		</div>
+	  </div>
+  </header>
+ <div class="banner-content container">
+    <h2><img src="assets/images/tagline.png" alt=""></h2>
+    <div class="search-bar-box col-sm-12">
+      <div class="search col-sm-6">
+        <div class="search-button"> <img src="assets/images/location-icon.png" alt=""></div>
+        <input type="text" placeholder="PUNA">
+      </div>
+      <div class="search col-sm-6">
+        <div class="search-button searchh"> <img src="assets/images/search.png" alt=""></div>
+        <input type="text" placeholder="pimple sudagar">
+      </div>
+    </div>
+  </div>

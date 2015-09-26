@@ -1,0 +1,109 @@
+
+<nav class="navbar navbar-inverse navi">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navigation" id="myNavbar">
+      <ul class="nav navbar-nav container">
+        <li class="active">
+      <a href="#" title="Home" class="active"> <i class="glyphicon glyphicon-home"></i>Home</a></li>
+    <li>
+      <a href="#" title="Cook"><i class="glyphicon glyphicon-fire"></i>Cook</a></li>
+    <li>
+      <a href="#" title="Cooking Class"><i class="glyphicon glyphicon-cutlery"></i>Cooking Class</a></li>
+    <li>
+      <a href="#" title="Maid"><i class="glyphicon glyphicon-user"></i>Maid</a></li>
+    <li>
+      <a href="#" title="Tiffin Services"><i class="glyphicon glyphicon-glass"></i>Tiffin Services</a></li>
+    <li> 
+      <a href="#" title="Blog"><i class="glyphicon glyphicon-info-sign"></i>Blog</a></li>
+    <li>
+      <a href="#" title="Contact Us"><i class="glyphicon glyphicon-phone"></i> Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!----  Navigation Ends here -->
+<!----  Welcome starts here -->
+<div class="container">
+<div class="row welcome">
+<div class="col-sm-4">
+<img src="assets/images/welcome.png" class="img-responsive"></div>
+<div class="col-sm-8">
+<h3>Welcome to our website</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec congue massa. Vivamus auctor ultrices tortor eu malesuada. Suspendisse potenti. Etiam eget sagittis libero. Proin vitae cursus lectus. Donec tempor tortor sit amet nulla vulputate bibendum. Quisque consectetur molestie rhoncus. Sed euismod justo volutp</p>
+<p>at eros consequat tristique vehicula quam pellentesque. Vivamus mi tortor, fringilla quis rhoncus in, venenatis in sapien. Maecenas pellentesque accumsan elementum. Etiam eget sagittis libero. Proin vitae cursus lectus.
+</p>
+<a href="#" class="pull-right"><img src="assets/images/read.png" alt=""></a></div>
+</div>
+</div>
+<!----  Welcome ends here -->
+<!----  how-it-works starts here -->
+<div class="how-it-works">
+	<div class="container">
+    <h2>How it works?</h2>
+        <div class="row">
+        	<div class="col-sm-4 text-center"><img src="assets/images/icon-1.png" alt="" class="img-responsive">
+            <h3>FIND</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec congue massa. Vivamus auctor ultrices tortor Ut nec congue massa. Vivamus auctor ultrices tortor</p></div>
+        	<div class="col-sm-4 text-center"><img src="assets/images/icon-2.png" alt="" class="img-responsive">
+            <h3>SEARCH</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec congue massa. Vivamus auctor ultrices tortor Ut nec congue massa. Vivamus auctor ultrices tortor</p></div>
+        	<div class="col-sm-4 text-center"><img src="assets/images/icon-3.png" alt="" class="img-responsive">
+            <h3>WOOTBEE!!!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec congue massa. Vivamus auctor ultrices tortorUt nec congue massa. Vivamus auctor ultrices tortor</p></div>
+        </div>
+    </div>
+</div>
+<!----  how-it-works ends here -->
+<!----  client-testimonial starts here -->
+<div class="container testimonial">
+    <h2>What our client says?</h2>
+<div class="row">
+	<div class="col-sm-4">
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/clien-1.png" alt="" class="img-responsive"></a></div>
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/client-2.png"alt="" class="img-responsive"></a></div>
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/client-3.png" alt="" class="img-responsive"></a></div>
+    </div>
+    
+    	<div class="col-sm-4">
+    	<div class="col-sm-2"><a href="#" class="a"><img src="assets/images/arrow-left.png" alt="" class="img-responsive"></a></div>
+    	<div class="col-sm-8"><img src="assets/images/main-client.png" alt="" class="img-responsive"></div>
+    	<div class="col-sm-2"><a href="#" class="a"><img src="assets/images/arrow-right.png" alt="" class="img-responsive"></a></div>
+    </div>
+    
+	<div class="col-sm-4">
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/clien-1.png" alt="" class="img-responsive"></a></div>
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/client-2.png"alt="" class="img-responsive"></a></div>
+    	<div class="col-sm-4"><a href="#"><img src="assets/images/client-3.png" alt="" class="img-responsive"></a></div>
+    </div>
+</div>
+<div class="row">
+	<h3>Jim Fortin</h3>
+    <h5>Milton Keynes, Puna</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec congue massa. Vivamus auctor ultrices tortor eu malesuada. Suspendisse potenti. Etiam eget sagittis libero. Proin vitae cursus lectus. Donec tempor tortor sit amet nulla vulputate bibendum. Quisque consectetur molestie rhoncus. Sed euismod justo volutp
+</p>
+</div>
+</div>
+<!----  client-testimonial ends here -->
+<!----  Our-Partners starts here -->
+<div class="partneres">
+	<div class="container">
+    <div class="row">
+    	<div class="arrow-pur"><a href="#"><img src="assets/images/arrow-purple-left.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo1.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo2.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo3.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo4.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo5.png" alt=""></a></div>
+        <div class="col-sm-2"><a href="#"><img src="assets/images/logo5.png" alt=""></a></div>
+    	<div class="arrow-purr"><a href="#"><img src="assets/images/arrow-purple-right.png" alt=""></a>
+</div>
+    </div>
+</div>
+</div>

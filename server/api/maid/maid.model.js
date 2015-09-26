@@ -1,0 +1,45 @@
+'use strict';
+
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
+
+var MaidSchema = new Schema({
+  memberType: String,
+  firstname: String,
+  lastname: String,
+  age: Number,
+  gender: String,
+  experience: String,
+  phone1: String,
+  phone2: String,
+  location: String,
+  marital_status: String,
+  price_per_person: Number,
+  price_avg: Number,
+  meal_type: String,
+  language: String,
+  home_town: String,
+  address1: String,
+  address2: String,
+  education: String,
+  active: String,
+  state: String,
+  city: String,
+  description: String,
+  image: String,
+  verified: String,
+  party_order: String,
+  email: String,
+  religion: String,
+  vessel_cleaning_cost: String,
+  cuisine: Object,
+  id_type: String,
+  id_image: String,
+  vessel_cleaning: String,
+  evening_from: Date,
+  evening_to: Date,
+  morning_to: Date,
+  morning_from: Date,
+});
+
+module.exports = mongoose.model('Maid', MaidSchema);

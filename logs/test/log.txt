@@ -1,0 +1,3592 @@
+sExpress server listening on 9000, in development mode
+finished populating users
+[90mGET /login [36m304 [90m7ms[0m
+[90mGET /dashboard [32m200 [90m8ms[0m
+[90mGET /api/users/me [33m401 [90m5ms - 12b[0m
+[90mPOST /auth/local [32m200 [90m33ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 451b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms - 6.87kb[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m6ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /maids [36m304 [90m1ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m7ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 6.87kb[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 6.87kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m6ms[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/iphone.png [32m200 [90m1ms[0m
+[90mGET /images/fb.png [32m200 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/iphone.png [32m200 [90m3ms[0m
+[90mGET /images/fb.png [32m200 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /admin/ [32m200 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m1ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mGET /images/iphone.png [32m200 [90m5ms[0m
+[90mGET /images/fb.png [32m200 [90m3ms[0m
+[90mGET /images/tw.png [32m200 [90m3ms[0m
+[90mGET /images/rs.png [32m200 [90m1ms[0m
+[90mGET /admin/dashboard [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m0ms[0m
+[90mGET /api/users/me [36m304 [90m16ms[0m
+[90mGET /dashboard [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mGET /images/iphone.png [32m200 [90m3ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m1ms[0m
+[90mGET /admin/ [36m304 [90m1ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m1ms[0m
+[90mGET /images/rs.png [32m200 [90m1ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/iphone.png [32m200 [90m1ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /check [32m200 [90m1ms - 6.87kb[0m
+[90mGET /maids [32m200 [90m1ms[0m
+[90mGET /maids [36m304 [90m1ms[0m
+[90mGET /maids [32m200 [90m1ms[0m
+[90mGET /images/rs.png [32m200 [90m4ms[0m
+[90mGET /images/iphone.png [32m200 [90m5ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /login [32m200 [90m2ms[0m
+[90mGET /images/rs.png [36m304 [90m1ms[0m
+[90mGET /images/fb.png [36m304 [90m1ms[0m
+[90mGET /images/iphone.png [36m304 [90m1ms[0m
+[90mGET /images/tw.png [36m304 [90m0ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m6ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /auth/local [32m200 [90m31ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m1ms - 453b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m4ms[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /auth/local [32m200 [90m29ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /images/fb.png [36m304 [90m1ms[0m
+[90mGET /images/rs.png [36m304 [90m2ms[0m
+[90mGET /images/iphone.png [36m304 [90m2ms[0m
+[90mGET /images/tw.png [36m304 [90m2ms[0m
+[90mGET /login [36m304 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m2ms[0m
+[90mGET /images/fb.png [32m200 [90m2ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /viewmaids [32m200 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/iphone.png [32m200 [90m2ms[0m
+[90mGET /images/tw.png [32m200 [90m3ms[0m
+[90mGET /images/fb.png [32m200 [90m3ms[0m
+[90mGET /images/rs.png [32m200 [90m2ms[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /images/fb.png [32m200 [90m3ms[0m
+[90mGET /images/iphone.png [32m200 [90m1ms[0m
+[90mGET /images/tw.png [32m200 [90m1ms[0m
+[90mGET /images/rs.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /assets/images/welcome.png [33m404 [90m2ms[0m
+[90mGET /assets/images/read.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-1.png [33m404 [90m3ms[0m
+[90mGET /assets/images/icon-2.png [33m404 [90m2ms[0m
+[90mGET /assets/fonts/glyphicons-halflings-regular.woff2 [33m404 [90m1ms - 3.45kb[0m
+[90mGET /assets/fonts/titilliumtext22l005-webfont.woff2 [33m404 [90m1ms - 3.45kb[0m
+[90mGET /assets/fonts/pacifico-webfont.woff2 [33m404 [90m2ms - 3.45kb[0m
+[90mGET /assets/images/clien-1.png [33m404 [90m2ms[0m
+[90mGET /assets/fonts/fradm_0-webfont.woff [33m404 [90m1ms - 3.45kb[0m
+[90mGET /assets/images/client-2.png [33m404 [90m7ms[0m
+[90mGET /assets/fonts/glyphicons-halflings-regular.woff [33m404 [90m2ms - 3.45kb[0m
+[90mGET /assets/fonts/titilliumtext22l005-webfont.woff [33m404 [90m2ms - 3.45kb[0m
+[90mGET /assets/fonts/pacifico-webfont.woff [33m404 [90m3ms - 3.45kb[0m
+[90mGET /assets/fonts/fradm_0-webfont.ttf [33m404 [90m3ms[0m
+[90mGET /assets/images/client-3.png [33m404 [90m4ms[0m
+[90mGET /assets/images/arrow-left.png [33m404 [90m3ms[0m
+[90mGET /assets/images/main-client.png [33m404 [90m3ms[0m
+[90mGET /assets/fonts/glyphicons-halflings-regular.ttf [33m404 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/css/titilliumtext22l005-webfont.ttf [33m404 [90m3ms[0m
+[90mGET /assets/fonts/pacifico-webfont.ttf [33m404 [90m3ms[0m
+[90mGET /assets/images/icon-3.png [33m404 [90m4ms[0m
+[90mGET /assets/images/arrow-right.png [33m404 [90m4ms[0m
+[90mGET /assets/images/arrow-purple-right.png [33m404 [90m6ms[0m
+[90mGET /assets/images/arrow-purple-left.png [33m404 [90m4ms[0m
+[90mGET /assets/images/border-nav.png [33m404 [90m2ms[0m
+[90mGET /assets/images/howitworks-bg.png [33m404 [90m14ms[0m
+[90mGET /assets/images/partner-bg.png [33m404 [90m2ms[0m
+[90mGET /assets/fonts/myriadpro-regular_0.woff [33m404 [90m2ms - 3.45kb[0m
+[90mGET /assets/fonts/myriadpro-regular_0.ttf [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/images/read.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-1.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-2.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-3.png [33m404 [90m2ms[0m
+[90mGET /assets/images/welcome.png [33m404 [90m1ms[0m
+[90mGET /assets/images/clien-1.png [33m404 [90m2ms[0m
+[90mGET /assets/images/client-2.png [33m404 [90m2ms[0m
+[90mGET /assets/images/client-3.png [33m404 [90m2ms[0m
+[90mGET /assets/images/arrow-left.png [33m404 [90m2ms[0m
+[90mGET /assets/images/main-client.png [33m404 [90m2ms[0m
+[90mGET /assets/images/arrow-right.png [33m404 [90m2ms[0m
+[90mGET /assets/images/arrow-purple-left.png [33m404 [90m2ms[0m
+[90mGET /assets/images/arrow-purple-right.png [33m404 [90m2ms[0m
+[90mGET /assets/images/border-nav.png [33m404 [90m2ms[0m
+[90mGET /assets/images/howitworks-bg.png [33m404 [90m2ms[0m
+[90mGET /assets/images/partner-bg.png [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/images/welcome.png [33m404 [90m2ms[0m
+[90mGET /assets/images/read.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-1.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-3.png [33m404 [90m2ms[0m
+[90mGET /assets/images/icon-2.png [33m404 [90m1ms[0m
+[90mGET /assets/images/clien-1.png [33m404 [90m1ms[0m
+[90mGET /assets/images/client-2.png [33m404 [90m2ms[0m
+[90mGET /assets/images/client-3.png [33m404 [90m3ms[0m
+[90mGET /assets/images/arrow-left.png [33m404 [90m3ms[0m
+[90mGET /assets/images/main-client.png [33m404 [90m4ms[0m
+[90mGET /assets/images/arrow-right.png [33m404 [90m2ms[0m
+[90mGET /assets/images/arrow-purple-left.png [33m404 [90m1ms[0m
+[90mGET /assets/images/arrow-purple-right.png [33m404 [90m2ms[0m
+[90mGET /assets/images/border-nav.png [33m404 [90m2ms[0m
+[90mGET /assets/images/howitworks-bg.png [33m404 [90m2ms[0m
+[90mGET /assets/images/partner-bg.png [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /assets/images/welcome.png [33m404 [90m2ms[0m
+[90mGET /assets/images/read.png [33m404 [90m2ms[0m
+[90mGET /assets/images/main-client.png [33m404 [90m4ms[0m
+[90mGET /assets/images/partner-bg.png [33m404 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m5ms[0m
+[90mGET /images/s2.png [32m200 [90m4ms[0m
+[90mGET /check [32m200 [90m2ms - 6.79kb[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /viewmaids [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m3ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /login [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m31ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m4ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m17ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms - 473b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 473b[0m
+[90mPOST /auth/local [32m200 [90m28ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /viewmaids [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m3ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m2ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+[90mGET /viewmaids [32m200 [90m1ms[0m
+[90mGET /viewmaids [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m2ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m3ms[0m
+[90mGET /viewmaids [32m200 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m7ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 473b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 473b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /login [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /login [36m304 [90m10ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/css/ng-animation.css [33m404 [90m3ms[0m
+[90mGET /bower_components/angular-animate.min.js [33m404 [90m3ms[0m
+[90mGET /bower_components/angular-socialshare/angular-socialshare.min.css [33m404 [90m3ms[0m
+[90mGET /bower_components/angular-socialshare/angular-socialshare.js [33m404 [90m2ms[0m
+[90mGET /bower_components/angular-animate.min.js [33m404 [90m2ms[0m
+[90mGET /bower_components/angular-socialshare/angular-socialshare.min.css [33m404 [90m6ms[0m
+[90mGET /bower_components/angular-socialshare/angular-socialshare.js [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m2ms[0m
+[90mGET /assets/js/ng-infinite-scroll.min.js [33m404 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m2ms[0m
+[90mGET /assets/js/ng-infinite-scroll.min.js [33m404 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m2ms[0m
+[90mGET /assets/js/ng-infinite-scroll.min.js [33m404 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m3ms[0m
+[90mGET /assets/js/ng-infinite-scroll.min.js [33m404 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m2ms[0m
+[90mGET /assets/js/angular-animate.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /assets/images/a.png [33m404 [90m3ms[0m
+[90mGET /assets/images/b.png [33m404 [90m3ms[0m
+[90mGET /assets/images/c.png [33m404 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mGET /viewmaids [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /auth/facebook [36m302 [90m3ms - 0b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /auth/google [36m302 [90m2ms - 0b[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m8ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /auth/google [36m302 [90m1ms - 0b[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mGET /viewmaids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /admin/maids [36m304 [90m0ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /admin/ [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m6ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m1ms[0m
+[90mGET /viewmaids [36m304 [90m0ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m7ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /maids [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /auth/facebook [36m302 [90m2ms - 0b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /admin/search_maids [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /auth/facebook [36m302 [90m1ms - 0b[0m
+[90mGET /admin/search_maids [36m304 [90m0ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m28ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /admin/search_maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m7ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m4ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m3ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m3ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+finished populating users
+[90mGET /admin/login [32m200 [90m26ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m33ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m5ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m6ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /auth/facebook [36m302 [90m3ms - 0b[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m3ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m2ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/images/facebook.png [33m404 [90m2ms[0m
+[90mGET /assets/images/twitter.png [33m404 [90m1ms[0m
+[90mGET /assets/images/Google-32.png [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+finished populating users
+[90mGET /admin/dashboard [32m200 [90m12ms[0m
+[90mGET /images/logo.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m6ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m4ms - 471b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m9ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m1ms - 502b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m15ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m6ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m5ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m1ms - 453b[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m1ms - 927b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mGET /maids [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 958b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m1ms - 453b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m1ms - 471b[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m2ms - 502b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /maids [32m200 [90m3ms[0m
+[90mGET /viewmaids [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 976b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /search_maids [36m304 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m1ms - 471b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m7ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m2ms - 502b[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 976b[0m
+[90mGET /images/logo.png [36m304 [90m3ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m35ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m4ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m8ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 453b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m11ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m3ms - 453b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+finished populating users
+[90mGET /viewmaids [32m200 [90m26ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m7ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m4ms - 453b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m16ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m3ms - 471b[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m1ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/facebook.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/linkdin.png [32m200 [90m2ms[0m
+[90mGET /images/google-plus.png [32m200 [90m2ms[0m
+[90mGET /images/maid.png [32m200 [90m2ms[0m
+[90mGET /assets/images/check_radio_sheet.png [33m404 [90m6ms[0m
+[90mGET /images/twitter.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /assets/images/check_radio_sheet.png [33m404 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/images/check_radio_sheet.png [33m404 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/images/check_radio_sheet.png [33m404 [90m2ms[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m38ms - 502b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m11ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m7ms - 927b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 927b[0m
+[90mGET /admin/ [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m5ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /admin/maids/manage/ [32m200 [90m1ms[0m
+[90mGET /admin/maids/manage/ [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms - 2b[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /assets/images/loading.gif [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m1ms - 2b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [33m404 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [33m404 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /login [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [33m404 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m1ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 976b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m8ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 976b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m1ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m15ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m16ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 927b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /app/admin/maids/managemaids.controller.js [33m404 [90m2ms[0m
+[90mGET /app/admin/maids/managemaids.controller.js [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m3ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+finished populating users
+[90mGET /search_maids [36m304 [90m6ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m7ms[0m
+[90mGET /images/s3.png [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m1ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m4ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m3ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m2ms - 469b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m1ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 959b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1008b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m9ms[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m2ms - 518b[0m
+[90mGET /assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [33m404 [90m6ms[0m
+[Error: Could not execute GraphicsMagick/ImageMagick: convert "client/assets/uploads/maids/org/16fdd624-35b5-4560-9843-2c735827fe07.jpg" "-resize" "200x200^" "-gravity" "Center" "-crop" "200x200+0+0" "client/assets/uploads/maids/thumbnail/16fdd624-35b5-4560-9843-2c735827fe07.jpg" this most likely means the gm/convert binaries can't be found]
+[90mPOST /api/maid/uploadimage [32m200 [90m75822ms - 142b[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m4ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m2ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m6ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/e471b948-773e-484b-b536-18aa41558ae1.jpg [32m200 [90m2ms[0m
+[90mGET /client/assets/uploads/maids/thumbnail/default.jpg [32m200 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m2ms - 487b[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m57791ms - 142b[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [36m304 [90m1ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m46916ms - 142b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m12ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m7ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m6ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m3ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55db53ae19eba7b439d63289 [32m200 [90m1ms - 469b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms - 7kb[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m4027ms - 142b[0m
+[90mPUT /api/maid/55db53ae19eba7b439d63289 [32m200 [90m15ms - 518b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55db53ed19eba7b439d6328a [32m200 [90m2ms - 487b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/ [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /admin/login [36m304 [90m7ms[0m
+[90mGET /images/logo.png [32m200 [90m8ms[0m
+[90mPOST /auth/local [32m200 [90m39ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m8ms[0m
+[90mGET /admin/ [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m12ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m29ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m8582ms - 142b[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mDELETE /api/maid/55db53ed19eba7b439d6328a [32m204 [90m5ms[0m
+[90mDELETE /api/maid/55db53ae19eba7b439d63289 [32m204 [90m2ms[0m
+[90mPOST /api/maid [32m201 [90m8ms - 535b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 535b[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m6ms[0m
+[90mGET /api/maid/55dbe82919eba7b439d6328b [32m200 [90m2ms - 518b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m8ms[0m
+[90mDELETE /api/maid/55dbe82919eba7b439d6328b [32m204 [90m5ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mPOST /api/maid [32m201 [90m3ms - 651b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 651b[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/default.png [33m404 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m98467ms - 142b[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/10e3c564-4648-4f83-b737-ada073107ad0.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m18ms[0m
+[90mGET /api/maidfront [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m3875ms - 142b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m2ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/org/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m7ms[0m
+[90mGET /admin/login [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m4ms - 535b[0m
+[90mGET /assets/uploads/maids/thumbnail/10e3c564-4648-4f83-b737-ada073107ad0.jpg [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m4125ms - 142b[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m5ms - 535b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 535b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 651b[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m85914ms - 142b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m4ms[0m
+[90mGET /assets/uploads/maids/org/default.jpg [33m404 [90m3ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m6093ms - 142b[0m
+[90mPUT /api/maid/55f53f1dd28b394750eff010 [32m200 [90m4ms - 680b[0m
+[90mGET /admin/maids [32m200 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m3ms - 680b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/313dbff1-a740-41b3-afa1-1e05a5cd8caf.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m13ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m6271ms - 142b[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m4ms - 535b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 535b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/50081c78-3990-42f2-a20f-47b61d2960c5.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m3ms - 535b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53f1dd28b394750eff010 [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/313dbff1-a740-41b3-afa1-1e05a5cd8caf.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/org/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m29ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m5ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m55440ms - 142b[0m
+[90mPUT /api/maid/55f53f1dd28b394750eff010 [32m200 [90m6ms - 680b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m72665ms - 142b[0m
+[90mPOST /api/maid [32m201 [90m3ms - 658b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /admin/ [32m200 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m2ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m3ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m6ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m138412ms - 142b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m136116ms - 142b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m2ms - 658b[0m
+[90mPOST /api/maid [32m201 [90m4ms - 594b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m4ms - 594b[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m13ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 535b[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m5ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m1ms - 535b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m6ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m5ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /admin/dashboard [32m200 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 535b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/50081c78-3990-42f2-a20f-47b61d2960c5.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m2224ms - 142b[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /admin/maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/2bfe78b9-82ed-408d-95b5-0e0e023da5c3.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mPUT /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m1ms[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m8ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m2278ms - 142b[0m
+[90mPOST /api/maid [32m201 [90m5ms - 553b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m1ms - 553b[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m2ms[0m
+[90mGET /api/users/me [32m200 [90m4ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m7ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m3ms - 553b[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/cafd9079-22df-4562-b119-60bb18e4adc4.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mPUT /api/maid/55f55da1d28b394750eff013 [32m200 [90m3ms - 553b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m1ms - 553b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m3ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m35ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mPUT /api/maid/55f55da1d28b394750eff013 [32m200 [90m2ms - 553b[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m2ms - 553b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m0ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/images/loader.GIF [33m404 [90m3ms[0m
+[90mGET /assets/images/loader.GIF [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/%27)%20|%20ngfDataUrl%7D%7D [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/ [33m404 [90m3ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [32m200 [90m5ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [32m200 [90m2ms[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m1ms - 537b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /admin/maids [36m304 [90m0ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m2ms - 658b[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.15256360246971057%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.15256360246971057 [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.6697947001338673 [33m404 [90m2ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [36m304 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.4491279720650687%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.4491279720650687 [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/cafd9079-22df-4562-b119-60bb18e4adc4.jpg?0.562743629291819%27)%20|%20ngfDataUrl}} [32m200 [90m0ms - 7kb[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms - 7.15kb[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms - 7kb[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms - 7.15kb[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m0ms - 7kb[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [32m200 [90m1ms[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m2ms - 553b[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /file%20||%20%27assets/uploads/maids/thumbnail/cafd9079-22df-4562-b119-60bb18e4adc4.jpg?0.8077281676856621%27 [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /file%20||%20%27assets/uploads/maids/thumbnail/?0.16079685027072388%27 [32m200 [90m2ms[0m
+[90mGET /file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg?0.16079685027072388%27 [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m0ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg?0.16641726011351876%27 [32m200 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m0ms[0m
+[90mGET /api/users/me [36m304 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg?0.1217944060083408%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.0647959912636269%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.0647959912636269 [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.0647959912636269 [33m404 [90m2ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /admin/maids/manage/55f55da1d28b394750eff013 [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/cafd9079-22df-4562-b119-60bb18e4adc4.jpg?0.9261457334659494%27)%20|%20ngfDataUrl}} [32m200 [90m0ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.44476477684198923 [33m404 [90m2ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /search_maids/ [36m304 [90m6ms[0m
+[90mGET /images/logo.png [32m200 [90m8ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m12ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=1 [32m200 [90m22ms - 560b[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m7ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=2 [32m200 [90m4ms - 703b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=3 [32m200 [90m3ms - 681b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=4 [32m200 [90m3ms - 617b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=5 [32m200 [90m3ms - 576b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m6ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m6ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m5ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m5ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /admin/maids [32m200 [90m3ms[0m
+[90mGET /api/users/me [32m200 [90m6ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m7ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg?0.30167966417939707%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.2886935316183008%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.2886935316183008 [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m1ms - 658b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.47578105843713725%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.47578105843713725 [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.07983378001308761%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.07983378001308761 [33m404 [90m2ms[0m
+[90mGET /api/maid/55f55da1d28b394750eff013 [32m200 [90m1ms - 553b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.4281409153780984%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.4281409153780984 [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=6 [32m200 [90m2ms - 23b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m5ms[0m
+[90mGET /images/s2.png [32m200 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /admin/maids [32m200 [90m1ms[0m
+[90mGET /api/users/me [32m200 [90m3ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/b4f2c00a-0dd1-4464-a040-db280f89eb68.jpg?0.3867958983726656%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m6ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.5671175973332722%27)%20|%20ngfDataUrl}} [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.5671175973332722 [33m404 [90m3ms[0m
+[90mDELETE /api/maid/55f55da1d28b394750eff013 [32m204 [90m3ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/default.jpg?0.7255197757746683%27)%20|%20ngfDataUrl}} [32m200 [90m1ms - 7kb[0m
+[90mPOST /api/maid [32m201 [90m5ms - 532b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=7 [32m200 [90m1ms - 23b[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m2ms - 532b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.6674839617325856%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.6674839617325856 [33m404 [90m5ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m1589ms - 142b[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m5ms - 561b[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=6 [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=7 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.5853185120449066 [33m404 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=6 [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m16ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m11ms[0m
+[90mGET /images/s3.png [32m200 [90m14ms[0m
+[90mGET /images/logo.png [32m200 [90m4ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=6 [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=7 [36m304 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=6 [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=1&pageNumber=7 [36m304 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m8ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 680b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m1ms - 561b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m12ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m3211ms - 142b[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m4ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.6605755272494429%27)%20|%20ngfDataUrl}} [32m200 [90m0ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.6605755272494429 [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.6605755272494429 [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m6ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/users/me [36m304 [90m4ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/5f877877-bebd-4c1d-b559-9be5d25b76a3.jpg?0.6060626162574729%27)%20|%20ngfDataUrl}} [32m200 [90m1ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.11217730542674742%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.11217730542674742 [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.11217730542674742 [33m404 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m5ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /admin/maids [32m200 [90m1ms - 7kb[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m7ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m33ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/5f877877-bebd-4c1d-b559-9be5d25b76a3.jpg?0.30521080291070035%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.08177892455980307%27)%20|%20ngfDataUrl}} [32m200 [90m1ms - 7kb[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.08177892455980307 [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.9361149893236044%27)%20|%20ngfDataUrl}} [32m200 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.9361149893236044 [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/5f877877-bebd-4c1d-b559-9be5d25b76a3.jpg?0.049890938601671375%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/?0.8657869720198643%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/?0.8657869720198643 [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /%7B%7B(file%20||%20%27assets/uploads/maids/thumbnail/7439aa1a-4ef9-4a2c-88d9-6157b27d3a87.jpg?0.5750802976390497%27)%20|%20ngfDataUrl}} [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m6ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /api/users/me [32m200 [90m4ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /images/logo.png [32m200 [90m19ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m1ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m2ms - 561b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m13ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m9ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m2ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m1ms - 561b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m2ms - 658b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 680b[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m7ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m17ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m25ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m18ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [36m304 [90m2ms[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m4ms - 628b[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m2ms - 628b[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m4ms - 633b[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m2ms - 633b[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m3ms - 625b[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m1ms - 625b[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m3ms - 633b[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m1ms[0m
+[90mPUT /api/maid/55f548e1d28b394750eff012 [32m200 [90m3ms - 594b[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /search_maids/ [36m304 [90m0ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m3ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+[90mPUT /api/maid/55f5476dd28b394750eff011 [32m200 [90m3ms - 656b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m3ms - 656b[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m12ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m49777ms - 142b[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maid [32m201 [90m3ms - 654b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m1ms - 654b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m175ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m60ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m3ms[0m
+[90mPOST /auth/local [32m200 [90m31ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m2ms - 654b[0m
+[90mPUT /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m2ms - 654b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /admin/maids/manage/55f548e1d28b394750eff012 [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m8ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /api/users/me [36m304 [90m25ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m21ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m8ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m5ms[0m
+[90mPUT /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 537b[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m3ms - 537b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m2ms - 656b[0m
+[90mPUT /api/maid/55f5476dd28b394750eff011 [32m200 [90m2ms - 656b[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m2ms - 633b[0m
+[90mPUT /api/maid/55f5648027f46a0058ccae65 [32m200 [90m3ms - 633b[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m1ms - 654b[0m
+[90mPUT /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m3ms - 654b[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m1ms - 537b[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mPUT /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m6ms - 656b[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m1ms - 633b[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m1ms - 654b[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m6ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m9ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m2ms[0m
+[90mPUT /api/maid/55f53ed4d28b394750eff00f [32m200 [90m4ms - 573b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m13ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m2ms - 680b[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [36m304 [90m1ms[0m
+[90mPUT /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m2ms - 656b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m6ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m7ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /admin/login [36m304 [90m0ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m15ms - 680b[0m
+[90mGET /admin/login [32m200 [90m7ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m3ms[0m
+[90mGET /admin/login [32m200 [90m3ms[0m
+[90mGET /admin/ [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /admin/maids/manage/55f53f1dd28b394750eff010 [32m200 [90m2ms[0m
+[90mGET /admin/login [36m304 [90m1ms[0m
+[90mGET /search_maids [32m200 [90m3ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /search_maids/ [36m304 [90m7ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m9ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m8ms[0m
+[90mGET /images/s1.png [32m200 [90m7ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m17ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /admin/maids/manage/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m10ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m6ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m6ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m1ms - 656b[0m
+[90mGET /search_maids [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m6ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m12ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m5ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m3ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m7ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+[90mGET /search_maids/ [32m200 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m12ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m5ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m7ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m13ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /search_maids/ [36m304 [90m0ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 680b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m14ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m0ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m1ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m16ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m1ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [32m200 [90m2ms - 573b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5b0e227f46a0058ccae66 [32m200 [90m2ms - 654b[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m4ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m4ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m6ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m22ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mPOST /auth/local [32m200 [90m33ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /admin/maids [36m304 [90m0ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m1ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m9ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m3ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m14ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m2ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m5ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /search_maids/ [36m304 [90m7ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m10ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maid.js [33m404 [90m4ms[0m
+[90mGET /app/frontend/maids_old/maidsfront.controller.js [33m404 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m5ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m14ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m20ms[0m
+[90mGET /search_maids/ [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m9ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m33ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m12ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /admin/maids [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m8ms[0m
+[90mGET /admin/maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m9ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+error: Forever detected script was killed by signal: SIGKILL
+Express server listening on 9000, in development mode
+[90mGET /admin/maids [36m304 [90m6ms[0m
+[90mGET /api/users/me [36m304 [90m15ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m15ms[0m
+[90mGET /images/logo.png [32m200 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /admin/maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m5ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m14ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /admin/maids [32m200 [90m3ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /admin/maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m3ms[0m
+[90mPOST /auth/local [32m200 [90m32ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m6ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /maids [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m4ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m6ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m13ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+3
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+4
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+3
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+4
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+3
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+3
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+2
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+1
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /login [32m200 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m4ms - 117b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms[0m
+[90mGET /search_maids [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m3ms - 656b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /maids [32m206 [90m4ms[0m
+[90mGET /maids [32m200 [90m2ms - 7.33kb[0m
+[90mGET /images/logo.png [32m200 [90m2ms - 7.18kb[0m
+[90mGET /images/s1.png [32m200 [90m1ms - 7.18kb[0m
+[90mGET /images/s3.png [32m200 [90m1ms - 7.18kb[0m
+[90mGET /images/s2.png [32m200 [90m1ms - 7.18kb[0m
+[90mPOST /auth/local [32m200 [90m29ms - 207b[0m
+[90mGET /api/users/me [32m200 [90m2ms - 117b[0m
+[90mGET /maids [36m304 [90m1ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /login [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m4ms - 3.73kb[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m1195ms - 142b[0m
+[90mGET /admin/maids [32m200 [90m1ms - 7.33kb[0m
+[90mPOST /api/maid/allmaids [32m200 [90m55ms - 3.73kb[0m
+[90mGET /images/logo.png [36m304 [90m11ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms - 3.73kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms - 3.45kb[0m
+[90mPOST /api/maid [32m201 [90m9ms - 804b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms - 4.51kb[0m
+[90mGET /search_maids/ [32m200 [90m1ms - 7.33kb[0m
+[90mGET /images/logo.png [36m304 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m8ms - 3.73kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m12ms - 3.45kb[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m3ms - 827b[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [32m200 [90m1ms - 804b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1.35kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1.99kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1.99kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 1.99kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms - 1.99kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m1ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1.99kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 1.23kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 1.23kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms - 3.85kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m5ms - 3.85kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.23kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 1.87kb[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /images/s3.png [36m304 [90m2ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms - 3.45kb[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms - 1.87kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 680b[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m4ms - 656b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms - 3.45kb[0m
+[90mGET /search_maids/ [32m206 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m3ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m2900ms - 142b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maid [32m201 [90m4ms - 688b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m13ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m6ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m7ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m4ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+1
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /search_maids/ [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /images/s1.png [32m200 [90m1ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m4ms - 2b[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+cook
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m2ms[0m
+[90mGET /images/s3.png [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /admin/maids/manage/ [32m200 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m3ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /auth/google [36m302 [90m2ms - 0b[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m12ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m3ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [32m200 [90m2ms - 594b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [32m200 [90m1ms - 656b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [32m200 [90m1ms - 680b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f548e1d28b394750eff012 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [32m200 [90m1ms - 633b[0m
+[90mGET /api/maid/55f5648027f46a0058ccae65 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m5ms[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mGET /admin/maids/manage/ [32m200 [90m2ms[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m9ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.woff [33m404 [90m3ms[0m
+[90mGET /assets/font/glyphiconshalflings-regular.ttf [33m404 [90m2ms[0m
+[90mPOST /api/maid/uploadimage [32m200 [90m9843ms - 142b[0m
+[90mPOST /api/maid [32m201 [90m3ms - 996b[0m
+[90mPOST /api/maid/allmaids [32m200 [90m5ms[0m
+[90mGET /api/users/me [36m304 [90m3ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m6ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /images/s3.png [36m304 [90m0ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55faee90cc5d5c366146a745 [32m200 [90m2ms - 996b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m7ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mGET /search_maids/ [36m304 [90m0ms[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m5ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m11ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /maids [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m1ms[0m
+[90mGET /images/s3.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [32m200 [90m3ms[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m4ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /images/s1.png [36m304 [90m0ms[0m
+[90mGET /images/s2.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m2ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [32m200 [90m1ms - 804b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+cook
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+maid
+0
+[90mPOST /api/maidfront [32m200 [90m3ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 1.87kb[0m
+1
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+[90mGET /search_maids/ [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [36m304 [90m6ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms - 3.45kb[0m
+[90mGET /images/s1.png [36m304 [90m1ms[0m
+[90mGET /images/s2.png [36m304 [90m0ms[0m
+[90mGET /images/s3.png [36m304 [90m1ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=2 [36m304 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms - 1.65kb[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms - 3.45kb[0m
+[90mGET /search_maids [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m3ms[0m
+[90mGET /images/s1.png [32m200 [90m3ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m13ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m5ms[0m
+[90mGET /api/maidfront?loc_name=&maidsPerPage=6&pageNumber=1 [32m200 [90m4ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mGET /images/s2.png [32m200 [90m2ms[0m
+[90mGET /images/s1.png [32m200 [90m2ms[0m
+[90mGET /images/s3.png [32m200 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /admin/login [32m200 [90m2ms[0m
+[90mGET /images/logo.png [32m200 [90m2ms[0m
+[90mPOST /auth/local [32m200 [90m30ms - 207b[0m
+[90mGET /api/users/me [36m304 [90m2ms[0m
+[90mPOST /api/maid/allmaids [32m200 [90m6ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /api/maid/55f964a0cc5d5c366146a743 [32m200 [90m2ms - 804b[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7BmaidData.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m4ms[0m
+[90mPUT /api/maid/55f964a0cc5d5c366146a743 [32m200 [90m3ms - 804b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m4ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m1ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m2ms - 2b[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mPOST /api/maidfront/comp_maid [32m200 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m3ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m2ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f53f1dd28b394750eff010 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m2ms[0m
+[90mGET /api/maid/55f5476dd28b394750eff011 [36m304 [90m1ms[0m
+[90mGET /assets/uploads/maids/thumbnail/%7B%7Bmaid.image%7D%7D [33m404 [90m6ms[0m
+[90mGET /api/maid/55f53ed4d28b394750eff00f [36m304 [90m1ms[0m
+0
+[90mPOST /api/maidfront [32m200 [90m3ms[0m

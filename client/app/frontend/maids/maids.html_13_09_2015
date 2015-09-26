@@ -1,0 +1,94 @@
+<div class="container">
+    <div id="wrapper" class="padding-top">
+        <div class="sidebar col-md-3">
+            <h2>FILL DETAILS</h2>
+            <div class="gender">
+                <h3>Gender</h3>
+                <div class="form-choose">
+                    <div class="radio-toolbar">  
+                        <input type="radio" id="radio1" name="radios" name="gender" ng-change='search_maid()' ng-model='maid.gender' value="male">
+                        <label for="radio1">Male</label>
+
+                        <input type="radio" id="radio2"name="gender" ng-change='search_maid()' ng-model='maid.gender' value="female">
+                        <label for="radio2">Female</label>
+
+                        <input type="radio" id="radio3" name="gender" ng-change='search_maid()' ng-model='maid.gender' value="both">
+                        <label for="radio3">Both</label>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <h3>Meal type</h3>
+                <div class="form-choose">
+                    <div class="radio-toolbar">  
+                        <input type="radio" id="radio4" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="veg" checked>
+                        <label for="radio4">Veg</label>
+
+                        <input type="radio" id="radio5" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="nonveg">
+                        <label for="radio5">Non-Veg</label>
+
+                        <input type="radio" id="radio6" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="both">
+                        <label for="radio6">Both</label>
+                    </div>
+
+                </div>
+                <h3>Price</h3>
+                <div  range-slider on-handle-up='search_maid()' attach-handle-values="true" min='price.range.min'  max='price.range.max' step='{{price.step}}' model-min="price.minPrice" model-max="price.maxPrice"></div>               
+                <h3>Experience</h3>
+                <div  range-slider on-handle-up='search_maid()' attach-handle-values="true" min='exp.range.min'  max='exp.range.max' step='{{exp.step}}' model-min="exp.minExp" model-max="exp.maxExp"></div>
+                <h3>speciality</h3>
+                <ul class="spl-food">
+
+                    <li ng-repeat='x in specialityArr'>
+                        <input id="sl{{$index + 1}}" ng-click='toggleVal($index, x.special)' value='{{x.special}}' type="checkbox"> 
+                        <label for="sl{{$index + 1}}"><span></span>{{x.special}}</label></li>
+
+
+                </ul>
+            </div>	
+        </div>
+        <div class="cook-panel-main col-md-7">
+            <div ng-if="!maids.length">
+                No maids found!
+            </div>
+            <div ng-class="animation"  ng-repeat="maid in maids"  class="cook-panel col-md-4"> 
+                <!--<ul class="select">
+                        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                                </ul>-->
+
+
+                <img id="b{{maid._id}}_img" width="320" height="130" ng-src="client/assets/uploads/maids/thumbnail/{{maid.image}}" style="display: block;">
+                <h4>{{maid.firstname}} {{maid.lastname}}</h4>
+                <p>Experience &ndash; X Area</p>
+                <p align='center'> Age : {{maid.age}}</p>
+                <p align='center'> Gender : {{maid.gender}}</p>
+                <button class="view-pro" ng-click="viewProfile(maid._id)">View Profile</button>
+                <input type="checkbox" maid_id="{{maid._id}}" id="b{{maid._id}}"  ng-click="comp($event)">
+                <label for="b{{maid._id}}"><span class="pos"></span></label>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="col-md-2 compare">
+            <h2>Compare</h2>
+            <span ng-if="!compares.length">Please select maids to compare</span>
+            <li ng-class="compare_animation" ng-repeat="maid_id in compares">
+
+                <div>
+                    <span style="cursor:pointer;" aria-hidden="true" class="glyphicon glyphicon-remove" ng-click="del_compare(maid_id)"></span>
+                    <img src="assets/uploads/maids/thumbnail/9f9cdee0-caed-412a-8ea4-7d36ed81b5a9.jpg"></div>
+
+            </li>
+            <li ng-if="compare_active">
+                <button ng-click="compare_maids()" type="button" class="btn btn-info">Compare Maids</button>
+            </li>
+        </div>
+    </div>
+</div>
+<!-- wrapper ends here -->
+<div class="clear"></div>

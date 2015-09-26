@@ -1,0 +1,399 @@
+<div id="content" class="span10">
+    <div class="row-fluid sortable">
+        <div class="box span12">
+            <div class="box-header" data-original-title>
+                <h2><a ui-sref="maids">Maids</a><i class="halflings-icon chevron-right"></i><a href=''>Manage Maids</a></h2>
+            </div>
+            <div class="box-content">
+                <form class="form-horizontal" name='maidForm' data-ng-submit="maidForm.$valid && manageMaid()" novalidate>
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label"></label>
+                            <div class="controls">
+                                <img width="100px" height="100px" src="assets/uploads/maids/thumbnail/{{maidData.image}}">
+                            </div>
+                            <div style="margin-top:6px;" class="btn btn-info controls" class="button" ngf-select ng-model="file">Upload</div>
+						</div>
+						
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.selmem.$invalid && !maidForm.selmem.$pristine || maidForm.$submitted && maidForm.selmem.$invalid}">
+                                <label class="control-label">Member Type <span>*</span></label>
+                                <div class="controls">
+                                    <select class="form-control" name="selmem" data-ng-model="maidData.memberType" data-ng-options="mem for mem in members" required>
+                                        <option value="">-- Choose Type --</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.first_name.$invalid && !maidForm.first_name.$pristine || maidForm.$submitted && maidForm.first_name.$invalid}">
+                                <label class="control-label">First Name <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.firstname' name='first_name' required placeholder="First Name">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.last_name.$invalid && !maidForm.last_name.$pristine || maidForm.$submitted && maidForm.last_name.$invalid}">
+                                <label class="control-label">Last Name <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.lastname' name='last_name' required placeholder="Last Name">
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Email</label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="email" ng-model='maidData.email' name='email' required placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Gender </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="gender" ng-model='maidData.gender' value="male" ng-checked='true'> Male
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="gender" ng-model='maidData.gender' value="female"> Female
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.age.$invalid && !maidForm.age.$pristine || maidForm.$submitted && maidForm.age.$invalid}">
+                                <label class="control-label">Age <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" only-numbers type="text" ng-model='maidData.age' name='age' required placeholder="Age in years" ng-maxlength="2">
+                                </div>
+                                <p style="color:red" ng-show="maidForm.age.$invalid && !maidForm.age.$pristine || maidForm.$submitted && maidForm.age.$invalid">Please enter valid age in years</p>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.experience.$invalid && !maidForm.experience.$pristine || maidForm.$submitted && maidForm.experience.$invalid}">
+                                <label class="control-label">Experience <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.experience' name='experience' only-numbers required placeholder="Experience in years" ng-maxlength="2">
+                                </div>
+                                <p style="color:red" ng-show="maidForm.experience.$invalid && !maidForm.experience.$pristine || maidForm.$submitted && maidForm.experience.$invalid">Please enter valid experience in years</p>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.phone1.$invalid && !maidForm.phone1.$pristine || maidForm.$submitted && maidForm.phone1.$invalid}">
+                                <label class="control-label">Phone1 <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.phone1' name='phone1' only-numbers required placeholder="Phone Number" ng-maxlength="10" ng-minlength="10">
+                                </div>
+                                <span class="help-block" ng-show="maidForm.phone1.$invalid && !maidForm.phone1.$pristine || maidForm.$submitted && maidForm.phone1.$invalid">phone number should be 10 digits</span>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.phone2.$invalid && !maidForm.phone2.$pristine || maidForm.$submitted && maidForm.phone2.$invalid}">
+                                <label class="control-label">Phone2 <span>*</span></label>
+                                <div class="controls">
+                                    <input only-numbers class="input-xlarge focused" type="text" ng-model='maidData.phone2' ng-minlength="10" name='phone2' required placeholder="Alternate Phone Number" ng-maxlength="10">
+                                </div>
+                                <span class="help-block" ng-show="maidForm.phone2.$invalid && !maidForm.phone2.$pristine || maidForm.$submitted && maidForm.phone2.$invalid">phone number should be 10 digits</span>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.location.$invalid && !maidForm.location.$pristine || maidForm.$submitted && maidForm.location.$invalid}">
+                                <label class="control-label">Location <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.location' name='location' required placeholder="Location">
+                                </div>
+                            </div>
+
+
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.price1.$invalid && !maidForm.price1.$pristine || maidForm.$submitted && maidForm.price1.$invalid}">
+                                <label class="control-label">Price per person <span>*</span></label>
+                                <div class="controls">
+                                    <input only-numbers class="input-xlarge focused" type="text" ng-model='maidData.price_per_person' name='price1' required placeholder="Price in rupees">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.priceavg.$invalid && !maidForm.priceavg.$pristine || maidForm.$submitted && maidForm.priceavg.$invalid}">
+                                <label class="control-label">Price average <span>*</span></label>
+                                <div class="controls">
+                                    <input only-numbers class="input-xlarge focused" type="text" ng-model='maidData.price_avg' name='priceavg' required placeholder="Price average in rupees">
+                                </div>
+                            </div>
+							
+							<div class="control-group">
+                                <label class="control-label">Vessel Cleaning </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input value="yes" type="radio" name="vessel_cleaning" ng-model='maidData.vessel_cleaning'> Yes
+                                    </label>
+                                    <label class="radio inline">
+                                        <input value="no" type="radio" name="vessel_cleaning" ng-model='maidData.vessel_cleaning' ng-checked='true'> No
+                                    </label>
+                                </div>
+                            </div>
+							
+							
+							
+                            <div data-ng-if='maidData.vessel_cleaning == "yes"' class="control-group">
+                                <label class="control-label">Vessel Cleaning Cost</label>
+                                <div class="controls">
+                                    <input only-numbers class="input-xlarge focused" type="text" ng-model='maidData.vessel_cleaning_cost' name='vesselclean' placeholder="Vessel cleaning cost in rupees">
+                                </div>
+                            </div>
+
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.desc.$invalid && !maidForm.desc.$pristine || maidForm.$submitted && maidForm.desc.$invalid}">
+                                <label class="control-label">Description <span>*</span></label>
+                                <div class="controls">
+                                    <textarea rows="4" cols="50" name='desc' required placeholder="Description" ng-model='maidData.description'></textarea>
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.lang.$invalid && !maidForm.lang.$pristine || maidForm.$submitted && maidForm.lang.$invalid}">
+                                <label class="control-label">Language <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.language' name='lang' required placeholder="Language">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.hometown.$invalid && !maidForm.hometown.$pristine || maidForm.$submitted && maidForm.hometown.$invalid}">
+                                <label class="control-label">Home town <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.home_town' name='hometown' required placeholder="Home Town">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.address1.$invalid && !maidForm.address1.$pristine || maidForm.$submitted && maidForm.address1.$invalid}">
+                                <label class="control-label">Address 1<span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.address1' name='address1' required placeholder="Address 1">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.address2.$invalid && !maidForm.address2.$pristine || maidForm.$submitted && maidForm.address2.$invalid}">
+                                <label class="control-label">Address 2 <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.address2' name='address2' required placeholder="Address 2">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.city.$invalid && !maidForm.city.$pristine || maidForm.$submitted && maidForm.city.$invalid}">
+                                <label class="control-label">City <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.city' name='city' required placeholder="City">
+                                </div>
+                            </div>
+
+
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.state.$invalid && !maidForm.state.$pristine || maidForm.$submitted && maidForm.state.$invalid}">
+                                <label class="control-label">State <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.state' name='state' required placeholder="State">
+                                </div>
+                            </div>
+
+                            <div class="control-group" data-ng-class="{'control-group-error':maidForm.edu.$invalid && !maidForm.edu.$pristine || maidForm.$submitted && maidForm.edu.$invalid }">
+                                <label class="control-label">Highest Education <span>*</span></label>
+                                <div class="controls">
+                                    <input class="input-xlarge focused" type="text" ng-model='maidData.education' name='edu' required placeholder="Education">
+                                </div>
+                            </div>
+                            
+                            <div class="control-group">
+                                <label class="control-label">Timing Morning <span>*</span></label>
+                                <div class="controls">
+									<label class="">From</label>
+									<div class="">
+										<timepicker ng-model="maidData.morning_from" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+									</div>
+									<label class="">To</label>
+									<div class="">
+										<timepicker ng-model="maidData.morning_to" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+									</div>
+                                </div>
+                            </div>
+                            
+                            <div class="control-group">
+                                <label class="control-label">Timing Evening <span>*</span></label>
+                                <div class="controls">
+									<label class="">From</label>
+									<div class="">
+										<timepicker ng-model="maidData.evening_from" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+									</div>
+									<label class="">To</label>
+									<div class="">
+										<timepicker ng-model="maidData.evening_to" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+									</div>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Cuisine </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.north'> North Indian
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.south'> South Indian
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.chinese'> Chinese
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.gujrati'> Gujrati
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.punjabi'> Punjabi
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.parsi'> Parsi
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.rajasthani'> Rajasthani
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.maharashtrian'> Maharashtrian
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.mughlai'> Mughlai
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.kashmiri'> Kashmiri
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.thai'> Thai
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.oriya'> Oriya
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.hyderabadi'> Hyderabadi
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.udipu'> Udipu
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.bengali'> Bengali
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="checkbox" ng-model='maidData.cuisine.others'> Others
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Marital Status </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="marital" ng-model='maidData.marital_status' value="single" ng-checked='true'> Single
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="marital" ng-model='maidData.marital_status' value="married"> Married
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="marital" ng-model='maidData.marital_status' value="divorced"> Divorced
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Religion </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="religion" ng-model='maidData.religion' value="hindu"> Hindu
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="religion" ng-model='maidData.religion' value="muslim"> Muslim
+                                    </label>
+                                    <label class="radio inline">
+                                        <input ng-checked='true' type="radio" name="religion" ng-model='maidData.religion' value="other"> Other
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Meal Type </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="meal_type" ng-model='maidData.meal_type' value="veg" ng-checked='true'> Veg
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="meal_type" ng-model='maidData.meal_type' value="nonveg"> Non-Veg
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="meal_type" ng-model='maidData.meal_type' value="both"> Both
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="control-group">
+                                <label class="control-label">Active </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="active" ng-model='maidData.active' value="yes" ng-checked='true'> Active
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="active" ng-model='maidData.active' value="no"> In-active
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!--
+                            <div class="control-group">
+                                <label class="control-label">Cleaning </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="cleaning" ng-model='maidData.cleaning' value="yes" ng-checked='true'> Yes
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="cleaning" ng-model='maidData.cleaning' value="no"> No
+                                    </label>
+                                </div>
+                            </div>
+-->
+
+                            <div class="control-group">
+                                <label class="control-label">Verified </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="verified" ng-model='maidData.verified' value="yes" ng-checked='true'> Yes
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="verified" ng-model='maidData.verified' value="no"> No
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">Party Order </label>
+                                <div class="controls">
+                                    <label class="radio inline">
+                                        <input type="radio" name="party_order" ng-model='maidData.party_order' value="yes" ng-checked='true'> Yes
+                                    </label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="party_order" ng-model='maidData.party_order' value="no"> No
+                                    </label>
+                                </div>
+                            </div>
+							
+							<div class="control-group" data-ng-class="{'control-group-error':maidForm.selid.$invalid && !maidForm.selid.$pristine || maidForm.$submitted && maidForm.selid.$invalid}">
+                                <label class="control-label">Id Type <span>*</span></label>
+                                <div class="controls">
+                                    <select class="form-control" name="selid" data-ng-model="selectedIdType1" data-ng-options="id.name for id in idTypes" required>
+                                        <option value="">-- Choose Id Type --</option>
+                                     </select>
+                                </div>
+                            </div>
+						<div class="control-group">
+                            <label class="control-label"></label>
+                            <div class="controls">
+                                <img width="100px" height="100px" src="assets/uploads/idproof/thumbnail/{{maidData.id_image}}">
+                            </div>
+                            <div style="margin-top:6px;" class="btn btn-info controls" class="button" ngf-select ng-model="id_proof">Upload</div>
+						</div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Save Data</button>
+                                <a class="btn" ui-sref="maids">Cancel</a>
+                            </div>
+                    </fieldset>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

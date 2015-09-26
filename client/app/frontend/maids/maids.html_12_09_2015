@@ -1,0 +1,358 @@
+<div class="container">
+    <div id="wrapper" class="padding-top">
+        <div class="sidebar col-md-3">
+            <h2>FILL DETAILS</h2>
+            <div class="gender">
+                <h3>Gender</h3>
+                <div class="form-choose">
+                    <div class="radio-toolbar">  
+                        <input type="radio" id="radio1" name="radios" value="all" checked>
+                        <label for="radio1">Male</label>
+
+                        <input type="radio" id="radio2" name="radios"value="false">
+                        <label for="radio2">Female</label>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <h3>Meal type</h3>
+                <div class="form-choose">
+                    <div class="radio-toolbar">  
+                        <input type="radio" id="radio4" name="radios2" value="all" checked>
+                        <label for="radio4">Veg</label>
+
+                        <input type="radio" id="radio5" name="radios2"value="false">
+                        <label for="radio5">Non-Veg</label>
+
+                        <input type="radio" id="radio6" name="radios2" value="true">
+                        <label for="radio6">Both</label>
+                    </div>
+
+                </div>
+                <h3>Price</h3>
+                <progress value="54" max="100"></progress>         
+                <h3>Experience</h3>
+                <progress value="54" max="100"></progress>   
+                <h3>speciality</h3>
+                <ul class="spl-food">
+
+                    <li><input type="checkbox" id="c1" name="cc">
+                        <label for="c1"><span></span>North</label></li>
+                    <li><input type="checkbox" id="c2" name="cc">
+                        <label for="c2"><span></span>Indian</label></li>
+                    <li><input type="checkbox" id="c3" name="cc">
+                        <label for="c3"><span></span>South</label>South</li>
+                    <li><input type="checkbox" id="c4" name="cc">
+                        <label for="c4"><span></span>Chinese</label></li>
+                    <li><input type="checkbox" id="c5" name="cc">
+                        <label for="c5"><span></span>Gujrati</label></li>
+                </ul>
+            </div>	
+        </div>
+        <div class="cook-panel-main col-md-7">
+            <!--
+            <div class="cook-panel col-md-4"> 
+            <ul class="select">
+                            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                        </ul>
+            
+            
+                        <img alt="" src="images/maid.png">
+                    <h4>Cook Name</h4>
+                    <p>Experience &ndash; X Area</p>
+                            <button class="view-pro">View Profile</button><input type="checkbox" id="c8" name="cc">
+                        <label for="c8"><span class="pos"></span></label>
+            
+                  </div>
+                  
+                  
+                  <div class="cook-panel col-md-4"> 
+            <ul class="select">
+                            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                        </ul>
+                        <img alt="" src="images/maid.png">
+                    <h4>Cook Name</h4>
+                    <p>Experience &ndash; X Area</p>
+                            <button class="view-pro">View Profile</button><input type="checkbox" id="c7" name="cc">
+                        <label for="c7"><span class="pos"></span></label>
+            
+                  </div>
+                  
+                  
+                  <div class="cook-panel col-md-4"> 
+            <ul class="select">
+                    <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>            </ul>
+            
+            
+                        <img alt="" src="images/maid.png">
+                    <h4>Cook Name</h4>
+                    <p>Experience &ndash; X Area</p>
+                            <button class="view-pro">View Profile</button><input type="checkbox" id="c9" name="cc">
+                        <label for="c9"><span class="pos"></span></label>
+            
+                  </div>
+                  
+                  <div class="cook-panel col-md-4"> 
+            <ul class="select">
+                            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                        </ul>
+            
+            
+                        <img alt="" src="images/maid.png">
+                    <h4>Cook Name</h4>
+                    <p>Experience &ndash; X Area</p>
+                            <button class="view-pro">View Profile</button><input type="checkbox" id="c10" name="cc">
+                        <label for="c10"><span class="pos"></span></label>
+            
+                  </div>
+                  
+                  <div class="cook-panel col-md-4"> 
+            <ul class="select">
+                    <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                        </ul>
+            
+            
+                        <img alt="" src="images/maid.png">
+                    <h4>Cook Name</h4>
+                    <p>Experience &ndash; X Area</p>
+                            <button class="view-pro">View Profile</button><input type="checkbox" id="c11" name="cc">
+                        <label for="c11"><span class="pos"></span></label>
+            
+                  </div>
+                  
+            -->
+            <div ng-class="animation"  ng-repeat="maid in maids"  class="cook-panel col-md-4"> 
+                <!--<ul class="select">
+                        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+                                <li><a href="#"><img src="images/google-plus.png" alt=""></a></li>
+                                </ul>-->
+
+
+                <img width="320" height="240" ng-src="assets/uploads/maids/thumbnail/{{maid.image}}" style="display: block;">
+                <h4>{{maid.firstname}} {{maid.lastname}}</h4>
+                <p>Experience &ndash; X Area</p>
+                <p align='center'> Age : {{maid.age}}</p>
+                <p align='center'> Gender : {{maid.gender}}</p>
+                <button class="view-pro" ng-click="viewProfile(maid._id)">View Profile</button>
+                <input type="checkbox" maid_id="{{maid._id}}" id="b{{maid._id}}"  ng-click="comp($event)">
+                <label for="b{{maid._id}}"><span class="pos"></span></label>
+
+            </div>
+
+            <!-- <div ng-class="animation"  ng-repeat="maid in maids" class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                      <div class="thumbnail bootsnipp-thumb">
+                          <div>
+                             <p align='center' class="caption2">{{maid.firstname}} {{maid.lastname}}</p>
+                          </div>-->
+            <!-- <div><span><div gplus class="g-plus" data-annotation="bubble" data-href='http://google.com' data-action='share'></div></span><span><a twitter  data-lang="en"  data-url='http://google.com' data-via='notsosleepy' data-size="small" data-text='Testing Twitter Share' ></a></span><span><a facebook-feed-share class="facebookShare" data-url='http://google.com' data-shares='shares', data-description="Example text">{{ shares }}</a></div>-->
+            <!--     <a href="http://bootsnipp.com/snippets/featured/people-card-with-tabs">
+                      <img width="320" height="240" alt="People card with Tabs" data-original="http://bootsnipp.com/img/screenshots/04822c242b954badefe7125157d41f777bc72971.png" class="lazy" src="http://bootsnipp.com/img/screenshots/04822c242b954badefe7125157d41f777bc72971.png" style="display: block;">
+                  </a>
+                  <p align='center'> Age : {{maid.age}}</p>
+                  <p align='center'> Gender : {{maid.gender}}</p>
+                  <p align='center'> Compare : <input type="checkbox" maid_id="{{maid._id}}" id="b{{maid._id}}"  ng-click="comp($event)" /></p>
+                  <div class="caption">
+                      <p><a ng-click="viewProfile(maid._id)" class="btn btn-primary btn-lg btn-block" href="">View</a></p>
+                  </div>
+              </div>
+          </div>-->
+
+
+
+
+
+        </div>
+        <div class="col-md-2 compare">
+            <h2>Compare</h2>
+            <li ng-repeat="maid_id in compares">
+                {{maid_id}}
+            </li>
+            <li ng-if="compare_active"><button ng-click="compare_maids()" type="button" class="btn btn-info">Compare Maids</button></li>
+        </div>
+    </div>
+</div>
+<!-- Nav Starts here --> 
+<!--<a href="#" class="toggle"> <span class="fa-align-justify"></span></a>
+<nav class="nav">
+  <ul class="inner">
+    <li class="active"> <span class="fa-home"></span><br>
+      <a href="#" title="Home" class="active">Home</a></li>
+    <li><span class="fa-cutlery"></span><br>
+      <a href="#" title="Cook">Cook</a></li>
+    <li><span class=" fa-mortar-board"></span><br>
+      <a href="#" title="Cooking Class">Cooking Class</a></li>
+    <li><span class=" fa-female"></span><br>
+      <a href="#" title="Maid">Maid</a></li>
+    <li><span class="fa-cutlery"></span><br>
+      <a href="#" title="Tiffin Services">Tiffin Services</a></li>
+    <li><span class=" fa-info"></span><br>
+      <a href="#" title="Blog">Blog</a></li>
+    <li><span class="fa-mobile-phone"></span><br>
+      <a href="#" title="Contact Us">Contact Us</a></li>
+  </ul>
+</nav>-->
+<!--<div class="navbar navbar-fixed-top navbar-default">
+        <div class="container">
+      <div class="navbar-header"><a class="navbar-brand" href="#">Project name</a><a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="glyphicon glyphicon-bar"></span>
+          <span class="glyphicon glyphicon-bar"></span>
+          <span class="glyphicon glyphicon-bar"></span>
+        </a>
+      </div>
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a>
+                </li>
+                <li><a href="#about">Cook</a>
+                </li>
+                <li><a href="#contact">Cooking Class</a>
+                </li>
+                <li><a href="#contact">Maid</a>
+                </li>
+                <li><a href="#contact">Tiffin Services</a>
+                </li>
+                <li><a href="#contact">Blog</a>
+                </li>
+                <li><a href="#contact">Contact Us</a>
+                </li>
+               
+            </ul>
+        
+        </div>
+<!--/.navbar-collapse -->
+<!--</div>
+</div>-->
+<!--
+<div style="margin-bottom:20px; margin-top:20px;" class="container">
+<div class="row">
+     <div class="col-md-3">
+        <div class="sidebar-nav-fixed pull-right affix">
+            <div class="well">
+                <ul class="nav ">
+                    <li>Compare Maids </li>
+                    <li ng-repeat="maid_id in compares">
+                        {{maid_id}}
+                    </li>
+                    <li ng-if="compare_active"><button ng-click="compare_maids()" type="button" class="btn btn-info">Compare Maids</button></li>
+                </ul>
+            </div>
+<!--/.well -->
+<!--    </div>
+<!--/sidebar-nav-fixed -->
+<!-- </div>
+  
+  <div ng-class="animation"  ng-repeat="maid in maids" class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+      <div class="thumbnail bootsnipp-thumb">
+          <div>
+             <p align='center' class="caption2">{{maid.firstname}} {{maid.lastname}}</p>
+          </div>
+<!-- <div><span><div gplus class="g-plus" data-annotation="bubble" data-href='http://google.com' data-action='share'></div></span><span><a twitter  data-lang="en"  data-url='http://google.com' data-via='notsosleepy' data-size="small" data-text='Testing Twitter Share' ></a></span><span><a facebook-feed-share class="facebookShare" data-url='http://google.com' data-shares='shares', data-description="Example text">{{ shares }}</a></div>-->
+<!--    <a href="http://bootsnipp.com/snippets/featured/people-card-with-tabs">
+         <img width="320" height="240" alt="People card with Tabs" data-original="http://bootsnipp.com/img/screenshots/04822c242b954badefe7125157d41f777bc72971.png" class="lazy" src="http://bootsnipp.com/img/screenshots/04822c242b954badefe7125157d41f777bc72971.png" style="display: block;">
+     </a>
+     <p align='center'> Age : {{maid.age}}</p>
+     <p align='center'> Gender : {{maid.gender}}</p>
+     <p align='center'> Compare : <input type="checkbox" maid_id="{{maid._id}}" id="b{{maid._id}}"  ng-click="comp($event)" /></p>
+     <div class="caption">
+         <p><a ng-click="viewProfile(maid._id)" class="btn btn-primary btn-lg btn-block" href="">View</a></p>
+     </div>
+ </div>
+</div>
+
+
+</div>
+
+</div>-->
+<!--<div ng-if="compare_active"><button ng-click="compare_maids()" type="button" class="btn btn-info">Compare Maids</button></div>-->
+<!-- Nav Ends here --> 
+<!-- wrapper starts here --><!--
+<div id="wrapper" class="padding-top">
+<div class="sidebar">
+    <div class="gender">
+    <h3>Gender</h3>
+        <div class="form-choose">
+            <div class="radio-toolbar">  
+                <input type="radio" id="radio1" name="gender" ng-change='search_maid()' ng-model='maid.gender' value="male">
+                <label for="radio1">Male</label>
+
+                <input type="radio" id="radio2" name="gender" ng-change='search_maid()' ng-model='maid.gender' value="female">
+                <label for="radio2">Female</label>
+
+                <input type="radio" id="radio3" name="gender" ng-change='search_maid()' ng-model='maid.gender' value="both">
+                <label for="radio3">Both</label>
+
+            </div>
+       </div>
+       <div class="clear"></div>
+            <h3>Meal type</h3>
+             <div class="form-choose">
+                <div class="radio-toolbar">  
+                    <input type="radio" id="radio4" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="veg" checked>
+                    <label for="radio4">Veg</label>
+
+                    <input type="radio" id="radio5" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="nonveg">
+                    <label for="radio5">Non-Veg</label>
+
+                    <input type="radio" id="radio6" ng-change='search_maid()' ng-model='maid.meal_type' name="vegNon" value="both">
+                    <label for="radio6">Both</label>
+                </div>
+             </div>
+
+            <h3>Price</h3>
+              <div  range-slider on-handle-up='search_maid()' attach-handle-values="true" min='price.range.min'  max='price.range.max' step='{{price.step}}' model-min="price.minPrice" model-max="price.maxPrice"></div>       
+            <h3>Experience</h3>
+              <div  range-slider on-handle-up='search_maid()' attach-handle-values="true" min='exp.range.min'  max='exp.range.max' step='{{exp.step}}' model-min="exp.minExp" model-max="exp.maxExp"></div>
+
+            <h3>speciality</h3>
+             <ul class="spl-food">
+                 <li ng-repeat='x in specialityArr'>
+                    <input ng-click='toggleVal($index,x.special)' value='{{x.special}}' type="checkbox"> {{x.special}}
+                 </li>-->
+<!-- <li><input  ng-model='maids.speciality' value='indian' type="checkbox">Indian</li>
+<li><input  ng-model='maids.speciality' value='south' type="checkbox">South</li>
+<li><input  ng-model='maids.speciality' value='chinese' type="checkbox">Chinese</li>
+<li><input  ng-model='maids.speciality' value='gujrati' type="checkbox">Gujrati</li> -->
+<!--    </ul>
+</div>  
+</div>
+<div class="cook-panel-main">
+
+<div class="cook-panel" ng-if='!isEmpty' ng-repeat='x in maids'> 
+   <ul class="select">
+       <li><a href="#"><img src="assets/images/facebook.png" alt=""></a></li>
+       <li><a href="#"><img src="assets/images/twitter.png" alt=""></a></li>
+       <li><a href="#"><img src="assets/images/Google-32.png" alt=""></a></li>
+   </ul>
+
+
+   <img alt="" src="assets/images/cook2.png">
+   <h4 ng-bind='x.firstname'></h4>
+   <p>Experience &ndash;{{x.experience}}</p>
+   <button class="view-pro">View Profile</button>
+   <input type="checkbox" class="checkb">
+
+</div>
+<div class="cook-panel" ng-if='isEmpty' style='width:100%;height:400px;'>
+   <center>No Record Found!!!!!</center>
+</div>
+</div>
+</div>-->
+<!-- wrapper ends here -->
+<div class="clear"></div>

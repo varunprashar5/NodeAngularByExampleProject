@@ -1,0 +1,170 @@
+'use strict';
+Array.prototype.remove = function() {
+    var what, a = arguments, L = a.length, ax;
+    while (L && this.length) {
+        what = a[--L];
+        while ((ax = this.indexOf(what)) !== -1) {
+            this.splice(ax, 1);
+        }
+    }
+    return this;
+};
+
+angular.module('woobeeApp')
+        .controller('maidsFrontCtrl', function ($scope, $state, MaidSer, $timeout, $stateParams,MaidFrontSer,$modal) {
+            $scope.maids="";
+            $scope.maid = {};
+            $scope.maid.gender = 'both';
+            $scope.maid.meal_type = 'both';
+          $scope.animation="flip-in";
+          $scope.compare_animation="slide-down";
+          var entries = MaidFrontSer.query(function() {
+            $scope.maids = entries;
+          }); 
+
+          $scope.price = {
+              range: {
+                min: 0,
+                max: 10000
+              },
+              minPrice: 0,
+              maxPrice: 10000,
+              step: 500
+          };
+          $scope.exp = {
+              range: {
+                min: 0,
+                max: 20
+              },
+              minExp: 0,
+              maxExp: 20,
+              step: 1
+          };
+
+          $scope.speciality = [];
+          $scope.specialityArr = [{special:'north'},{special:'indian'},{special:'south'},{special:'gujrati'},{special:'south'},{special:'chinese'}];
+
+          $scope.toggleVal = function (indexval,val) {
+            if ( $scope.speciality.indexOf(val) > -1) {
+              $scope.speciality.splice($scope.speciality.indexOf(val),1);
+            } else {
+              $scope.speciality.push($scope.specialityArr[indexval].special);
+            }
+            $scope.search_maid();
+          }
+
+          $scope.search_maid = function(){
+               $scope.maid.specialityarr = {}; 
+                $scope.maid.specialityarr.special = $scope.speciality; 
+                $scope.maid.price = $scope.price;
+                $scope.maid.exp = $scope.exp;
+
+                  MaidFrontSer.save($scope.maid, function(data) {
+                    if (data.length > 0) {
+                        $scope.maids = data;
+                        $scope.isEmpty = false;
+                    } else {
+                        $scope.maids = '';
+                        $scope.isEmpty = true;
+                    }
+                  }); //saves an entry. Assuming $scope.entry is the Entry object  
+              
+          };
+          
+          $scope.compares=[];
+          $scope.compare_active = false;
+          $scope.showCompare=false;
+          
+          $scope.viewProfile = function(id){              
+              
+            
+            //return false;
+            var maidsProfile = $modal.open({
+                animation: $scope.animationsEnabled,
+                templateUrl:'/app/frontend/maids/maidProfile.html',                
+                controller: 'maidModalCtrl',
+                resolve: {
+                    maid_data: function () {   
+                        return id;                      
+                    },
+                    type:function(){
+                        return "profile";
+                    }
+                }
+            });              
+          };
+          
+          $scope.compare_maids = function(){
+              $scope.showCompare=true;
+              var modalInstance = $modal.open({
+                animation: $scope.animationsEnabled,
+                templateUrl:'/app/frontend/maids/compare.html',                
+                controller: 'maidModalCtrl',
+                resolve: {
+                    maid_data: function () {                       
+                        return $scope.compares;
+                    },
+                    type:function(){
+                        return "compare";
+                    }
+                }
+            });
+          }
+          
+          $scope.comp = function(obj_this){
+                
+              var obj = angular.element(document.querySelector("#"+obj_this.target.id));
+              var img = angular.element(document.querySelector("#"+obj_this.target.id+"_img"));
+              if($(obj).prop('checked')){
+                if($scope.compares.length>=4){
+                    $scope.compare_active=true;
+                    $(obj).prop('checked',false);
+                    alert("Lmit exceeded");
+                } else {  
+                    //console.log(img.attr('src'));
+                    
+                    //$scope.compares.push({'maid_id':obj.attr('maid_id'),'img_src':obj_this.target.id+"_img"});
+                    $scope.compares.push(obj.attr('maid_id'));
+                    if($scope.compares.length>=2){
+                        $scope.compare_active=true;
+                    }
+                }                
+              } else {
+                $scope.compares.remove(obj.attr('maid_id'));
+                if($scope.compares.length<2){
+                        $scope.compare_active=false;
+                    }
+              }
+              console.log($scope.compares);
+          };
+          
+          $scope.del_compare = function(id){
+              $scope.compares.remove(id);
+              var obj = angular.element(document.querySelector("#b"+id));
+              $(obj).prop('checked',false);
+              if($scope.compares.length<2){
+                    $scope.compare_active=false;
+              }
+          };
+            
+
+        }).controller('maidModalCtrl', ['$scope', '$modalInstance','MaidFrontSer','maid_data','type','MaidSer', function ($scope, $modalInstance,MaidFrontSer,maid_data,type,MaidSer) {
+        
+        if(type=="compare"){
+            MaidFrontSer.compare_maid(maid_data, function(data) {                
+                $scope.maids = data;                       
+            });
+        } else if(type=="profile"){            
+            MaidSer.get({id:maid_data},function(res){
+                $scope.maid = res;
+            },
+            function(err) {
+                alert("ERROR");
+            }); 
+        }
+       
+        $scope.cancel = function () {
+            $modalInstance.dismiss('cancel');
+        };
+
+    }]);

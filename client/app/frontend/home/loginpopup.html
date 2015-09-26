@@ -1,0 +1,101 @@
+<div class="modal-header">
+    <button type="button" ng-click="$dismiss()" class="close">&times;</button>
+    <h4 ng-bind="modal.title" class="modal-title"></h4>
+</div>
+<div class="modal-body" data-ng-if="modal.title == 'login'">
+    <p ng-bind="modal.text"></p>
+    <form class="form-horizontal" class="form" name="login_form" ng-submit="login(login_form)" novalidate>
+        <fieldset>
+
+            <div class="input-prepend" title="Username">
+                <span class="add-on"><i class="halflings-icon user"></i></span>
+                <input class="span3" type="email" name="email" ng-model="user.email" required />
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="input-prepend" title="Password">
+                <span class="add-on"><i class="halflings-icon lock"></i></span>
+                <input class="span3" name="password" id="password" type="password" placeholder="type password" ng-model="user.password" required />
+            </div>
+            <div class="form-group has-error">
+                <p class="help-block" ng-show="login_form.email.$error.required && login_form.password.$error.required && login_submitted">
+                    Please enter your email and password.
+                </p>
+                <p class="help-block" ng-show="login_form.email.$error.email && login_submitted">
+                    Please enter a valid email.
+                </p>
+                <p class="help-block">{{ errors.other }}</p>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="button-login">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+            <div class="clearfix"></div>
+            <div>
+
+                <a class="btn btn-facebook" href="" ng-click="loginOauth('facebook')">
+                    <i class="fa fa-facebook"></i> Connect with Facebook
+                </a>
+                <a class="btn btn-google-plus" href="" ng-click="loginOauth('google')">
+                    <i class="fa fa-google-plus"></i> Connect with Google+
+                </a>
+
+            </div>
+    </form>
+</div>
+
+<div class="modal-body" data-ng-if="modal.title == 'signup'">
+    <p ng-bind="modal.text"></p>
+    <form class="form" name="signup_form" ng-submit="register(signup_form)" novalidate>
+
+        <div class="form-group" ng-class="{ 'has-success': signup_form.name.$valid && submitted,
+                                            'has-error': signup_form.name.$invalid && submitted }">
+            <label>Name</label>
+
+            <input type="text" name="name" class="form-control" ng-model="user.name" required/>
+            <p class="help-block" ng-show="signup_form.name.$error.required && submitted">
+                A name is required
+            </p>
+        </div>
+
+        <div class="form-group" ng-class="{ 'has-success': signup_form.email.$valid && submitted,
+                                            'has-error': signup_form.email.$invalid && submitted }">
+            <label>Email</label>
+
+            <input type="email" name="email" class="form-control" ng-model="user.email" required mongoose-error/>
+            <p class="help-block" ng-show="signup_form.email.$error.email && submitted">
+                Doesn't look like a valid email.
+            </p>
+            <p class="help-block" ng-show="signup_form.email.$error.required && submitted">
+                What's your email address?
+            </p>
+            <p class="help-block" ng-show="signup_form.email.$error.mongoose">
+                {{ errors.email }}
+            </p>
+        </div>
+
+        <div class="form-group" ng-class="{ 'has-success': signup_form.password.$valid && submitted,
+                                            'has-error': signup_form.password.$invalid && submitted }">
+            <label>Password</label>
+
+            <input type="password" name="password" class="form-control" ng-model="user.password" ng-minlength="3" required mongoose-error/>
+            <p class="help-block" ng-show="(signup_form.password.$error.minlength || signup_form.password.$error.required) && submitted">
+                Password must be at least 3 characters.
+            </p>
+            <p class="help-block" ng-show="signup_form.password.$error.mongoose">
+                {{ errors.password }}
+            </p>
+        </div>
+
+        <div>
+            <button class="btn btn-inverse btn-lg btn-login" type="submit">
+                Sign up
+            </button>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button data-ng-if="modal.title != 'login'" ng-click="modal.title='login'" class="btn">login</button>
+    <button data-ng-if="modal.title != 'signup'" ng-click="modal.title='signup'" class="btn">Signup</button>
+</div>

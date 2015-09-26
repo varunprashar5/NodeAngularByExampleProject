@@ -1,0 +1,77 @@
+<div ui-view ></div>
+<div id="content" class="span10" data-ng-hide="showMainPage">
+    <div class="row-fluid sortable">
+        <div class="box span12">
+            <div class="box-header" data-original-title>
+                <h2>Maids</h2>
+            </div>
+            <div class="box-content">
+                <div class="span12">
+                    <input class='search-box left' type="text" ng-model='search' placeholder='search by name' ng-enter="maidSearch()">
+
+                    <a class="btn btn-info" style='height:15px; margin-left:10px' href="javascript:void(0)" data-ng-click="maidSearch()">
+                        <i class="halflings-icon white search"></i>
+                    </a>
+
+                    <a href="" ui-sref="maids.manageMaids" class="btn btn-info" style="float:right;">
+                        <i class="halflings-icon white plus"></i>Add Members
+                    </a>
+                </div>
+                <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                    <thead>
+                        <tr>
+                            <th>
+                                <a href="javascript:void(0)"> Name </a>
+                            </th>
+                            <th>
+                                <a  href="javascript:void(0)">Age</a>
+                            </th>
+                            <th>
+                                <a href="javascript:void(0)">Gender</a>
+                            </th>
+                            <th>
+                                <a href="javascript:void(0)" >City</a>
+                            </th>
+                            <th>
+                                <a href="javascript:void(0)" >Active</a>
+                            </th>
+                            <th >Action</th>
+                        </tr>
+                    </thead>
+                    <tbody ng-hide='toogleShow'>
+                        <tr>
+                            <td colspan='6' >No record found</td>
+                        </tr>
+                    </tbody><!--infinite-scroll="myPagingFunction()" infinite-scroll-distance="3"-->
+                    <tbody ng-show='toogleShow'>
+                        <tr ng-repeat='maids in maidsList'>
+							<td data-ng-bind="maids.firstname +' '+ maids.lastname"></td>
+							<td data-ng-bind="maids.age"></td>
+							<td data-ng-bind="maids.gender"></td>
+							<td data-ng-bind="maids.city"></td>
+							<td ><span class='label label-{{maids.active == "yes" ? "success" : "important"  }}'>{{maids.active == 'yes' ? "Yes" : "No"  }}</span></td>
+							<td >
+								<a class="btn btn-info" href="javascript:void(0)" data-ng-click="editMaid(maids)" popover="{{locale.edit}}" popover-trigger="mouseenter">
+										<i class="halflings-icon white edit"></i>  
+									</a>
+								<a class="btn btn-danger" href="javascript:void(0)" data-ng-click="deleteMaid(maids)" popover="{{locale.delete}}" popover-trigger="mouseenter">
+									<i class="halflings-icon white trash"></i> 
+								</a>
+							
+							</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div data-ng-show="paginationBtns">
+					<pagination 
+					  ng-model="currentPage"
+					  total-items=count
+					  max-size="maxSize"  
+					  boundary-links="false">
+					</pagination>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>

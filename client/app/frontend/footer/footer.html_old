@@ -1,0 +1,53 @@
+<!-- footer starts here -->
+  <footer class="footer">
+    <div class="inner-footer">
+      <div class="lft-con">
+        <h1>How to <span>find us</span></h1>
+        <div class="iphone"><img src="images/iphone.png" alt="" /></div>
+      </div>
+      <div class="lft-con">
+        <h1>Our <span>Services</span></h1>
+        <div class="clear"></div>
+        <ul>
+          <li><a href="#">Cook</a></li>
+          <li><a href="#">Maid</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Coaching</a></li>
+        </ul>
+      </div>
+      <div class="lft-con">
+        <div class="clear"></div>
+        <h1>Our <span>Areas</span></h1>
+        <ul>
+          <li><a href="#">Puna</a></li>
+          <li><a href="#">Mumbai</a></li>
+          <li><a href="#">Chandigarh</a></li>
+          <li><a href="#">Goa</a></li>
+        </ul>
+      </div>
+      <div class="lft-con">
+        <h1>How to <span>find us</span></h1>
+        <div class="clear"></div>
+        <div class="s-icons clearfix">
+          <div class="ico"><a href="#"><img src="images/fb.png" title="Facebbok" alt="Fb" /></a></div>
+          <div class="ico"><a href="#"><img src="images/tw.png"title="Twitter" alt="Twitter" /></a></div>
+          <div class="ico"><a href="#"><img src="images/rs.png" title="RSS" alt="RSS" /></a></div>
+        </div>
+        <h2><span>Tel:</span> +00 (11) 1234-5678</h2>
+        <h5>Wootbee All rights reserved.</h5>
+      </div>
+    </div>
+  </footer>
+  <div class="bottom">
+    <ul>
+      <li><a href="#" title="Services" class="active">Services</a></li>
+      <li>|</li>
+      <li><a href="#" title="FAQ"></a>FAQ</li>
+      <li>|</li>
+      <li><a href="#" title="Contact Us">Contact Us</a></li>
+      <li>|</li>
+      <li><a href="#" title="Terms and Conditions">Terms and Conditions</a></li>
+      <li>|</li>
+      <li><a href="#" title="About Us">About Us</a></li>
+    </ul>
+  </div>

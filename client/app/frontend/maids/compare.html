@@ -1,0 +1,67 @@
+
+<!-- DC Pricing Tables JS -->
+
+<style>
+    .tsc_pricingtable02 .even {
+        background-color: #efefef;
+        border-bottom: 1px dotted #ccc;
+        color:black;
+    }
+    .tsc_pricingtable02 .odd {
+        background-color: #ffffff;
+        border-bottom: 1px dotted #ccc;
+        color:black;
+    }
+
+</style>
+
+<!-- DC Pricing Tables:2 Start -->
+<div  class="tsc_pricingtable02 pricing_five">
+    <ul class="pricing_column_first">
+        <li class="pricing_header1"><span>Details</span></li>
+<li style="height:118px;" class="even"><span>Image</span></li>
+        <li class="odd"> <span>Name</span></li>
+        <li class="even"><span>Age</span> </li>
+        <li class="odd"><span>Gender</span></li>
+        <li class="even"> <span>Experience</span></li>
+        <li class="odd"><span>Phone</span></li>
+        <li class="even"><span>Location</span></li>
+        <li class="odd"><span> Martial Status </span></li>
+        <li class="even"><span>Price Per Person</span></li>
+        <li class="odd"><span>Average Price</span></li>
+        <li class="even"> <span>Meal Type </span></li>
+        <li class="odd"><span>Cleaning</span></li>
+        <li class="even"><span>Language</span></li>
+        <li class='odd'><span>Home Town</span></li>
+        <li class="even"><span>Primary Address</span></li>
+        <li class="odd"><span>Secondry Address</span></li>
+        <li class="even"></li>
+    </ul>
+    <span ng-if="!maids.length">
+        <img src="assets/images/loader.GIF" style="margin-left: 200px; margin-top: 166px;">
+    </span>
+    <div class="pricing_hover_area">
+        <ul class="pricing_column red" ng-repeat="maid in maids">
+            <li class="pricing_header1">Maid {{$index+1}}</li>    
+            <img height="118" width="118" src="assets/uploads/maids/thumbnail/{{maid.image}}" class="compare-image">
+            <li class="odd">{{maid.firstname}}</li>
+            <li class="even">{{maid.age}}</li>
+            <li class="odd">{{maid.gender}}</li>
+            <li class="even">{{maid.experience}}</li>
+            <li class="odd">{{maid.phone1}}</li>
+            <li class="even">{{maid.location}}</li>
+            <li class="odd">{{maid.marital_status}}</li>
+            <li class="even">{{maid.price_per_person}}</li>
+            <li class="odd">{{maid.price_avg}}</li>
+            <li class="even">{{maid.meal_type}}</li>
+            <li class="odd">{{maid.cleaning}}</li>
+            <li class="even">{{maid.language}}</li>
+            <li class="odd">{{maid.home_town}}</li>
+            <li class="even">{{maid.address1 | limitTo: 20}}</li>
+            <li class="odd">{{maid.address2 | limitTo: 20}}</li>        
+        </ul>
+
+    </div>
+</div>
+<!-- DC Pricing Tables:2 End -->
+<div class="tsc_clear"></div> <!-- line break/clear line -->
